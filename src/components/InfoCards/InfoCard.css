@@ -59,3 +59,74 @@
     height: 1.2em;
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .time-card .sun-icon {
+        height: 1em;
+        margin-right: 0.8rem;
+    }
+    .info-card .icon {
+        font-size: 2rem;   
+    }
+    .info-card .value {
+        font-size: 1.5rem;
+        line-height: 1.2em;
+        font-weight: 500;
+    }
+
+    .info-card .field {
+        color: #ffffff8a;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .info-card{
+        padding: 0.6rem;
+    }
+  }
+
+
+  @media screen and (max-width: 490px) {
+    
+    
+    
+    .time-card .time {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+    }
+    .time-card{
+        padding: 14px;
+    }
+    
+    .time-card .sun-icon {
+        height: 0.9em;
+        margin-right: 0.5rem;
+    }
+
+    .info-card .icon {
+        font-size: 1.8rem !important;
+        line-height: 1px;
+     
+    }
+
+    .info-card .value {
+        font-size: 1.5rem !important;
+        line-height: 1em;
+    
+    }
+   
+  }
+
+  @media screen and (max-width: 375px) {
+    .time-card {
+        padding: 10px;
+    }
+    .time-card .time {
+        font-size: 1.4rem !important;
+    }
+    .time-card{
+        justify-content: space-between;
+    }
+  }
