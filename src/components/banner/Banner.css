@@ -1,13 +1,14 @@
 .banner {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: min-content;
+    justify-content: space-around;
+    width: 100%;
     gap: 2rem;
     background: hsla(0, 0%, 100%, 0.13);
     border-radius: 12px;
     padding: 1rem;
     color: white;
+
 }
 
 .banner .typography {
@@ -40,3 +41,65 @@
 .banner .image img {
     width: 14rem;
 }
+
+@media screen and (max-width: 600px) {
+    .banner .typography .status {
+        font-size: 1rem;
+    }
+    
+    .banner .image img {
+        width: 10rem;
+    }
+  }
+
+@media screen and (max-width: 830px) {
+   .banner .typography {
+     gap: 8px;
+   }
+   .banner .typography .status {
+    font-size: 0.8rem;
+    }
+
+    .banner .image img {
+        width: 9rem;
+    }
+    .banner .typography .temperature {
+        font-size: 4rem;
+    }
+
+   }
+
+@media screen and (max-width: 375px) {
+    .banner .typography {
+        gap: 4px;
+      }
+      .banner .typography .status {
+       font-size: 0.8rem;
+       }
+   
+       .banner .image img {
+           width: 7rem;
+       }
+       .banner .typography .temperature {
+           font-size: 4rem;
+       }
+  
+  }
+
+  @media screen and (max-width: 444px) {
+   
+      .banner .typography .status {
+       font-size: 0.8rem;
+       }
+   
+       .banner .image img {
+           width: 6.9rem;
+       }
+       
+
+       .banner{
+        gap:0rem !important
+       }
+     
+  
+  }
