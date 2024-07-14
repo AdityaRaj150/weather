@@ -72,7 +72,7 @@ const DashBoard = () => {
     }
   }, [city]);
 
-  const precipitationMode = cityWeather?.precipitation?.mode || "no data";
+  const precipitationMode = cityWeather?.precipitation?.mode || "N.A";
   const feelLike = (cityWeather?.main.feels_like - 273.15).toFixed(0);
 
   return (
@@ -111,7 +111,7 @@ const DashBoard = () => {
                     field="humidity"
                     value={cityWeather.main.humidity}
                   />
-                  <InfoCard field="wind" value={cityWeather.wind.speed} />
+                  <InfoCard field="wind" value={cityWeather.wind.speed +"m/s"} />
                   <InfoCard field="precipitation" value={precipitationMode} />
                   <InfoCard field="feels like" value={feelLike + "°C"} />
                 </div>
@@ -122,12 +122,12 @@ const DashBoard = () => {
                   <TimeCard
                     title="Sunrise"
                     timestamp={cityWeather.sys.sunrise}
-                    amORpm={"AM"}
+                  
                   />
                   <TimeCard
                     title="Sunset"
                     timestamp={cityWeather.sys.sunset}
-                    amORpm={"PM"}
+                  
                   />
                 </div>
               </div>

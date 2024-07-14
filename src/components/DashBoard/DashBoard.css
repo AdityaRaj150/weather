@@ -86,14 +86,24 @@
       justify-content: center;
     }
     .stats{
-        overflow: scroll;
-        overflow-y: hidden;
+      overflow-x: scroll;
     }
+    
+   
   
   }
 
   @media screen and (max-width: 375px) {
     .dashboard {
       width: 330px;
+    }
+    .stats{
+      gap:5px !important;
+    }
+  }
+
+  @media screen and (max-width: 355px) {
+    .dashboard {
+      width: 310px;
     }
   }

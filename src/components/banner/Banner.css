@@ -11,6 +11,10 @@
 
 }
 
+.stats{
+    overflow-x: scroll !important;
+}
+
 .banner .typography {
     display: flex;
     align-items: start;
@@ -97,6 +101,25 @@
      
   
   }
+
+
+  @media screen and (max-width: 355px) {
+   
+    .temperature{
+        font-size: 3.5rem !important;
+    }
+     
+     .label{
+      font-size:0.8rem !important ;
+     }
+    .banner{
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+
+   
+    }
+
 
   
 

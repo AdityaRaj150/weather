@@ -24,19 +24,17 @@ export const InfoCard = ({ field, value }) => {
     );
 };
 
-export function TimeCard({ title,timestamp, amORpm }) {
+export function TimeCard({ title,timestamp }) {
 
         const date = new Date(timestamp * 1000)
-        const timeBig = date.toLocaleTimeString();
-        const time = timeBig.substring(0,5)
-    
+        const time = date.toLocaleTimeString();
+        
     return (
         <div className="time-card">
             <div className="field">{title}</div>
             <div className="time">
                 <img src={sunrise} alt="" srcSet="" className="sun-icon" />
                 <span>{time}</span>
-                <span style={{ fontSize: "1rem" }}> {amORpm}</span>
             </div>
         </div>
     );

@@ -48,3 +48,10 @@
         width: 330px;
     }
   }
+
+
+  @media screen and (max-width: 355px) {
+    .searchbar {
+      width: 310px;
+    }
+  }
