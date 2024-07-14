@@ -117,7 +117,6 @@ const DashBoard = () => {
                 </div>
               </div>
               <div className="sidecol">
-                <DateTime />
                 <div className="timecardHolder">
                   <TimeCard
                     title="Sunrise"

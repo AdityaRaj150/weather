@@ -45,65 +45,58 @@
 }
 
 @media screen and (max-width: 666px) {
-    .dashboard {
-      width: 480px;
-      align-items: center;
-      justify-content: center;
-    }
-    .maincol{
-        width: 100%;
-    }
-    .timecardHolder{
-        gap: 0px;
-    }
-   
-   
+  .dashboard {
+    width: 480px;
+    align-items: center;
+    justify-content: center;
   }
+  .maincol {
+    width: 100%;
+  }
+  .timecardHolder {
+    gap: 0px;
+    justify-content: space-between !important;
+  }
+}
 
 @media screen and (max-width: 522px) {
-    .dashboard {
-      width: 440px;
-      align-items: center;
-      justify-content: center;
-    }
- 
-   
+  .dashboard {
+    width: 440px;
+    align-items: center;
+    justify-content: center;
   }
+}
 
-  @media screen and (max-width: 490px) {
-    .dashboard {
-      width: 400px;
-      align-items: center;
-      justify-content: center;
-    }
-  
+@media screen and (max-width: 490px) {
+  .dashboard {
+    width: 400px;
+    align-items: center;
+    justify-content: center;
   }
+}
 
-  @media screen and (max-width: 444px) {
-    .dashboard {
-      width: 350px;
-      align-items: center;
-      justify-content: center;
-    }
-    .stats{
-      overflow-x: scroll;
-    }
-    
-   
-  
+@media screen and (max-width: 444px) {
+  .dashboard {
+    width: 350px;
+    align-items: center;
+    justify-content: center;
   }
+  .stats {
+    overflow-x: scroll;
+  }
+}
 
-  @media screen and (max-width: 375px) {
-    .dashboard {
-      width: 330px;
-    }
-    .stats{
-      gap:5px !important;
-    }
+@media screen and (max-width: 375px) {
+  .dashboard {
+    width: 330px;
   }
+  .stats {
+    gap: 5px !important;
+  }
+}
 
-  @media screen and (max-width: 355px) {
-    .dashboard {
-      width: 310px;
-    }
+@media screen and (max-width: 355px) {
+  .dashboard {
+    width: 310px;
   }
+}
