@@ -9,6 +9,7 @@
     --theme: #7a3112;
     --light: #ffbe30;
     color: #fff;
+    overflow: hidden;
 }
 
 *,

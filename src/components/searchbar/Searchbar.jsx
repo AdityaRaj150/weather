@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-const SearchBar = () => {
+const SearchBar = ({setCity}) => {
     const [location, setLocation] = useState(null);
     const inputRef = useRef(null);
 
     const handleSearch = () => {
-        console.log(inputRef.current.value);
+        setCity(inputRef.current.value)
     };
 
     return (

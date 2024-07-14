@@ -5,6 +5,9 @@ import { faTemperatureHigh, faTemperatureLow } from "@fortawesome/free-solid-svg
 import Cloudy from "../../assets/cloudy.png"
 
 const Banner = ({temperature, min, max, status}) => {
+    temperature = (temperature - 273.15).toFixed(0)
+    min = (min - 273.15).toFixed(1)
+    max = (max - 273.15).toFixed(1)
     return (
         <div className="banner">
             <div className="typography">

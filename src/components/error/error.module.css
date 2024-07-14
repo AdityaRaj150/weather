@@ -1,0 +1,11 @@
+.main {
+    width: fit-content;
+    height: fit-content;
+    border-bottom-left-radius: 5px;
+    background-color: #7a3112;
+    box-shadow: 1px 1px 3px #fff;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    right: 0;
+}

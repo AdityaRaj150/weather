@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Location.css"
 
-const Location = () => {
+const Location = ({countryCode, name}) => {
   return (
     <div className="location">
-        <div className="exact">Los Angeles</div>
-        <div className="country">California</div>
+        <div className="exact">{name}</div>
+        <div className="country">{countryCode}</div>
     </div>
   )
 }

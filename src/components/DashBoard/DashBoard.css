@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 900px) {
   .dashboard {
     flex-direction: column;
   }
@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 666px) {
     .dashboard {
       width: 480px;
       align-items: center;

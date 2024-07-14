@@ -54,10 +54,13 @@
 
 @media screen and (max-width: 830px) {
    .banner .typography {
-     gap: 8px;
+     gap: 0px !important;
    }
    .banner .typography .status {
     font-size: 0.8rem;
+    }
+    .label{
+        font-size: 1rem !important;
     }
 
     .banner .image img {
@@ -66,25 +69,13 @@
     .banner .typography .temperature {
         font-size: 4rem;
     }
+    .status{
+        font-size: 1rem;
+    }
 
    }
 
-@media screen and (max-width: 375px) {
-    .banner .typography {
-        gap: 4px;
-      }
-      .banner .typography .status {
-       font-size: 0.8rem;
-       }
-   
-       .banner .image img {
-           width: 7rem;
-       }
-       .banner .typography .temperature {
-           font-size: 4rem;
-       }
-  
-  }
+
 
   @media screen and (max-width: 444px) {
    
@@ -96,10 +87,20 @@
            width: 6.9rem;
        }
        
-
+       .label{
+        font-size:0.9rem !important ;
+       }
        .banner{
         gap:0rem !important
        }
+
      
   
   }
+
+  
+
+   
+       
+    
+  
